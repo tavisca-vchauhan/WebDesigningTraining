@@ -1,0 +1,339 @@
+
+#First
+{
+	border:0.1px solid #afbbbf;
+	height:140%;
+	width:1024px;
+	background:white;
+	margin-left:19%;
+}
+#Top
+{
+	border:0.1px solid #afbbbf;
+	height:12%;
+	width:100%;
+	background:#afbbbf;
+	margin-top:-0.2%;
+}
+
+#InsideTop
+{
+	border:0.1px solid white;
+	height:75%;
+	width:50%;
+	background:#fffefc;
+	margin-left:25%;
+	margin-bottom:1%;
+	margin-top:1.1%;
+	padding:1px;
+	
+}
+
+#InsideInsideTop
+{
+	border:3px solid black;
+	height:85%;
+	width:95%;
+	margin-right:2%;
+	margin-bottom:1%;
+	margin-top:1%;
+	float:right;
+}
+#first-Paragraph
+{
+	
+	color:  Black;
+	float:right;
+	margin-top:3%;	
+}
+center
+{
+	margin-top:1%;
+	font-family:serif;
+	font-size:182%;
+	color:#d89a13;
+	
+}
+
+center.italic
+{
+	
+    font-style: italic;
+	font-size:120%;
+	margin-top:-2%;
+}
+center.icon
+{
+	
+    font-style: serif;
+	font-size:90%;
+	
+}
+p.Heading
+{
+	font-size:125%;
+	font-family:Times New Roman;
+	color:Black;
+	font-weight:bold;
+	margin-left:10px;
+}
+
+#Second-Top
+{
+	
+	height:24%;
+	width:100%;
+	background:white;
+}
+
+#profile-div
+{
+	
+	width:33.33%;
+	height:100%;
+	float:left;
+	text-align:center;
+	margin-left:2%;
+}
+
+#pic-div
+{
+	display: inline-block;
+	margin-left:-1%;
+	width:33.33%;
+	height:100%;
+}
+#profile_data
+{
+	text-align:left;
+	margin-left:17%;
+	width:90%;
+	height:250px;
+	font-family:Times New Roman;
+	font-size:16px;
+}
+#readMore
+{
+	margin-top:-51%;
+	text-align:right;
+	margin-right:-20px;
+	color:Red;
+}
+
+#address-div
+{
+	display: inline-block;
+	margin-right:1%;
+	width:31%;
+	height:100%;
+	float:right;
+	
+}
+img.profilePic 
+{
+    border-radius: 60%;
+	margin-left:23%;
+	margin-top:5%;
+	height:75%;
+	width:60%;
+	
+}
+img.icons
+{
+	
+	height:80%;
+	width:8%;
+	margin-bottom:-2%;
+	padding:1px 2px;
+}
+ #icon
+ {
+	 
+	 width:100%;
+	 height:10%;
+	 margin-bottom:-4%;
+	 font-size:90%;
+	 padding:4%;
+	 
+ }
+#div_second_frame{
+	padding: 3px;
+	margin-bottom:15px;
+	position:relative;
+	top:-70px;
+}
+td{
+	font-size:10px;
+	font-family:Verdana;
+	
+}
+.col{
+	font-size:12px;
+	color:#727272;
+	text-align:left;
+	padding-left:100px;
+	width:47%;
+}
+hr{
+	display: block;
+	color:#000000;
+}
+#div_second_hr{
+	height:30px;
+	width:15%;
+	background-color:#ffccb3;
+	position: relative;
+	top:-77px;
+	left:470px;
+}
+#line2{
+	position: relative;
+	top:-102px;
+	right:40px;
+}
+#line1{
+	position: relative;
+	top:-39px;
+	margin-left:120px;
+}
+#line3{
+	position: relative;
+	top:-18px;
+	left:-138px;
+}
+#div_Education{
+	height:30px;
+	width:15%;
+	position: relative;
+	top:10px;
+	margin-left:120px;
+	border:1px solid black;
+	background-color:#ffffff;
+}
+table{
+	border=1px;
+	width:100%;
+	cellpadding:2px;
+}
+td.lefts
+{
+	 text-align:center;
+	 font-size:11px;
+	 
+}
+td.left
+{
+	text-align:left;
+	font-size:11px;
+}
+#div_Skills{
+	height:30px;
+	width:16%;
+	position: relative;
+	top:-45px;
+	left:471px;
+	background-color:#ffccb3;
+}
+#div_Expertise{
+	height:30px;
+	width:15%;
+	border:1px solid black;
+	position: relative;
+	top: -97px;
+	left:827px;
+	background-color:#ffffff;
+}
+#line4{
+	position: relative;
+	top:-70px;
+	left:220px;
+}
+
+
+.mainContainer {
+   margin:-70px;
+   width :1024px;
+   
+}
+.mainDIV {
+    position: relative;
+    width: 100%;
+    min-width: 315px;
+}
+
+.leftDIV {
+    position: relative;
+    top: 0px;
+    left: 160px;
+    width: 74%;
+    display:inline-block;
+}
+
+.rightDIV {
+    position: relative;
+    top: 0px;
+	left:120px;
+    width: 14%;
+    height: 8%;
+    font-size:15px;
+    background-color: #afbbbf;
+    display: inline-block;
+    margin-top:30px ;
+    vertical-align:top;
+    text-align:center;
+}
+.container {
+    position: relative;
+    width: 100%;
+    min-width: 315px;
+	
+  
+}
+
+.experience {
+    position: relative;
+    top: 0px;
+    left: 160px;
+    width: 74%;
+    display: inline-block;
+}
+
+.image {
+    position: relative;
+    top: 0px;
+    left:120px;
+    width: 14%;
+    height:8%;
+    
+    background-color: #afbbbf;
+    display: inline-block;
+    margin-top: 30px;
+    vertical-align: top;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
