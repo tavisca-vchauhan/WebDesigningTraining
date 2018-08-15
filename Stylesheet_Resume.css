@@ -1,0 +1,290 @@
+.first {
+    box-shadow: 0 4px 8px 0 #AFBBBF;
+    width: 1024px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.top {
+    height: 110px;
+    width: 100%;
+    background: #AFBBBF;
+    margin-top: auto;
+}
+
+.inside-top {
+    height: 83px;
+    width: 500px;
+    background: #FFFEFC;
+    position: absolute;
+    top: 20px;
+    margin-left: 270px;
+    padding: 1px;
+}
+
+.inside-inside-top {
+    border: 3px solid #000000;
+    height: 70px;
+    width: 480px;
+    margin-right: 7px;
+    margin-top: 3px;
+    float: right;
+}
+
+.first-paragraph {
+    font-size: 2em;
+    color: #D89813;
+    width: 187px;
+    margin-top: 0px;
+    margin-left: 130px;
+    border-bottom: 1px dotted #000000;
+}
+
+.italic {
+    color: #D89813;
+    position: absolute;
+    font-style: italic;
+    font-size: 1.15em;
+    top: 28px;
+    margin-left: 135px;
+}
+
+p.heading {
+    font-size: 1.5em;
+    color: #000000;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.second-top {
+    height: 28%;
+    width: 100%;
+    background: #FFFFFF;
+}
+
+.profile-div {
+    width: 33.33%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    margin-left: 30px;
+}
+
+.pic-div {
+    display: inline-block;
+    margin-left: 25px;
+    width: 300px;
+    height: 230px;
+}
+
+.profile-data {
+    text-align: left;
+    margin-left: 17%;
+    width: 90%;
+    height: 250px;
+    font-size: 0.8em;
+}
+
+.address-div {
+    display: inline-block;
+    margin-left: 20px;
+    position: absolute;
+    top: 115px;
+    width: 350px;
+    height: 180px;
+}
+
+img.profile-pic {
+    border-radius: 60%;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 75%;
+    width: 80%;
+}
+
+img.icons {
+    /* border: 1px solid red; */
+    height: 80%;
+    width: 8%;
+    padding: 1px 2px;
+}
+
+.icon {
+    /* border: 1px solid red; */
+    width: 310px;
+    height: 30px;
+    font-size: 0.75em;
+}
+
+.div-second-frame {
+    width: 1000px;
+    position: absolute;
+    top: 390px;
+    margin-left: 10px;
+}
+
+tbody {
+    font-family: Verdana;
+}
+
+.col {
+    font-size: 0.78em;
+    color: #727272;
+    text-align: left;
+    padding-left: 100px;
+    width: 47%;
+}
+
+hr {
+    display: block;
+    color: #000000;
+}
+
+.div-second-hr {
+    height: 30px;
+    text-align: center;
+    width: 160px;
+    background-color: #FFCCB3;
+    position: absolute;
+    top: 560px;
+    margin-left: 450px;
+}
+
+.line2 {
+    position: absolute;
+    top: 564px;
+    margin-left: 611px;
+}
+
+.line1 {
+    position: absolute;
+    top: 564px;
+    margin-left: 70px;
+}
+
+.line3 {
+    position: absolute;
+    top: 343px;
+    margin-left: 290px;
+}
+
+.div-education {
+    text-align: center;
+    width: 190px;
+    height: 29px;
+    position: absolute;
+    top: 340px;
+    margin-left: 100px;
+    border: 1px solid #000000;
+    background-color: #FFFFFF;
+}
+
+table {
+    border: 1px;
+    width: 100%;
+    cellpadding: 2px;
+}
+
+td.lefts {
+    text-align: center;
+    font-size: 0.75em;
+}
+
+td.left {
+    text-align: left;
+    font-size: 0.75em;
+}
+
+.div-skills {
+    height: 30px;
+    width: 150px;
+    position: absolute;
+    margin-left: 460px;
+    top: 340px;
+    background-color: #FFCCB3;
+}
+
+.div-expertise {
+    height: 30px;
+    width: 170px;
+    border: 1px solid #000000;
+    position: absolute;
+    top: 340px;
+    margin-left: 790px;
+    background-color: white;
+}
+
+.line4 {
+    position: absolute;
+    margin-left: 610px;
+    top: 343px;
+}
+
+.main-container {
+    margin-top: 250px;
+    width: 1024px;
+}
+
+.main-div {
+    position: relative;
+    width: 97%;
+}
+
+.left-div {
+    position: relative;
+    top: 0px;
+    left: 128px;
+    width: 74%;
+    display: inline-block;
+}
+
+.right-div {
+    position: relative;
+    top: 0px;
+    left: 120px;
+    width: 14%;
+    height: 8%;
+    font-size: 0.8em;
+    background-color: #AFBBAF;
+    display: inline-block;
+    margin-top: 30px;
+    vertical-align: top;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    min-width: 315px;
+}
+
+.experience {
+    position: relative;
+    top: 0px;
+    left: 125px;
+    width: 71.5%;
+    display: inline-block;
+}
+
+.image {
+    position: relative;
+    top: 0px;
+    left: 120px;
+    width: 14%;
+    height: 8%;
+    background-color: #AFBBBF;
+    font-size: 0.8em;
+    display: inline-block;
+    margin-top: 30px;
+    vertical-align: top;
+    text-align: center;
+}
+
+li {
+    font-size: 0.9em;
+}
