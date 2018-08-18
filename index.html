@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Booking</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+  <header class="flex-container top">
+    <section class=" initialFirst">
+      <img src="ORXe.jpg" />
+    </section>
+    <section class="middle">
+      <section class="UserName">
+        Vishwas Chauhan<br> 500,000 Points
+      </section>
+      <section class="nav">
+        <a Class="links" href="#">Rewards Home</a> |
+        <a Class="links" href="#">Profile</a> |
+        <a Class="links" href="#">My Trips</a> |
+        <a Class="links" href="#">Sign Out</a>
+      </section>
+    </section>
+    <section class=" initialSecond">
+      <p id="itinerary"><a Class="Itinerary" href="#">My Itinerary ></a> </p>
+    </section>
+  </header>
+  <section class="second-top">
+    <section class="navigation">
+      <div class="drops"><a class="drop-links" href="#">Flights</a></div>
+      <div class="drops"><a class="drop-links" href="#">Hotels</a></div>
+      <div class="drops"><a class="drop-links" href="#">Cars</a></div>
+      <div class="drops"><a class="drop-links" href="#">Activities</a></div>
+      <div class="drops"><a class="drop-links" href="#">Cruise Specials</a></div>
+      <div class="drops"><a class="drop-links" href="#">Deals</a></div>
+    </section>
+  </section>
+  <section class="opacity-tab">
+    <p class="search-bar">Spread your wings and discover new destinations!</p>
+    <a class="offers" href="#">View Offers</a>
+  </section>
+  <section class="search-container">
+    <section class="search-flight">
+      <a class="icons" href="#">
+        <section id="section1">
+          <img class="icon-image" src="flight1.png" />
+          <p class="icon-text">Flight</p>
+        </section>
+      </a>
+      <a class="icons" href="#">
+        <section id="section2">
+          <img class="icon-image" src="hotel.png" />
+          <p class="icon-text">Hotel</p>
+        </section>
+      </a>
+      <a class="icons" href="#">
+        <section id="section3">
+          <img class="icon-image" src="car.png" />
+          <p class="icon-text">Car</p>
+        </section>
+      </a>
+      <a class="icons" href="#">
+        <section id="section4">
+          <img class="icon-image" src="activity.png" />
+          <p class="icon-text">Activity</p>
+        </section>
+      </a>
+    </section>
+    <section class="Search-for-flight">
+      Search for Flights
+    </section>
+    <section class="round-trip">
+      <a href="#" class="trips">
+        <section>
+          Round Trip
+        </section>
+      </a>
+      <a href="#" class="trips">
+        <section>
+          One Way
+        </section>
+      </a>
+      <a href="#" class="trips">
+        <section>
+          Multiple Destination
+        </section>
+      </a>
+    </section>
+    <section class="departure-title">
+      <span class="departure-title-inside1">
+        Departure City
+      </span>
+      <span class="departure-title-inside1">
+        Destination City
+      </span>
+      <span class="departure-title-inside2">
+        Departure Date
+      </span>
+      <span class="departure-title-inside2">
+        Return Date
+      </span>
+    </section>
+    <form action="#" method="get">
+      <section class="departure-title">
+        <section class="text-box">
+          <input class="text" type="text" placeholder="Airport or City" required/>
+        </section>
+        <section class="text-box">
+          <input class="text" type="text" placeholder="Airport or City" required/>
+        </section>
+        <section class="date-box">
+          <input class="date" type="date" value="2018-08-18" required/>
+        </section>
+        <section class="date-box">
+          <input class="date" type="date" value="2018-08-19" required/>
+        </section>
+      </section>
+      <section class="adults-title">
+        <section class="adults-title-inside1">
+          <label for="adult">Adults(18+)</label>
+        </section>
+        <section class="adults-title-inside1">
+          <label for="youth">Youths(12-17)</label>
+        </section>
+        <section class="adults-title-inside1">
+          <label for="children">Children(0-11)</label>
+        </section>
+      </section>
+      <section class="adults-title">
+        <section>
+          <select class="select-box" id="adult">
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+          </select>
+        </section>
+        <section>
+          <select class="select-box" id="youth">
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+          </select>
+        </section>
+        <section>
+          <select class="select-box" id="children">
+            <option>0</option>
+            <option>1</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+            <option>5</option>
+            <option>6</option>
+            <option>7</option>
+            <option>8</option>
+            <option>9</option>
+            <option>10</option>
+            <option>11</option>
+            <option>12</option>
+            <option>13</option>
+            <option>14</option>
+            <option>15</option>
+          </select>
+        </section>
+      </section>
+      <section class="info-link">
+        <a class="age-info" href="#">Age information</a>
+      </section>
+      <section class="info-link">
+        <a class="age-info" href="#">More Options++</a>
+      </section>
+      <section class="search-button">
+        <a href="#">
+          <section class="button">
+            Search Flight
+          </section>
+        </a>
+      </section>
+    </form>
+  </section>
+  <main class="main-content">
+    <article class="inner-main">
+      <section class="grid-layout">
+        <figure>
+          <img class="img1" src="carSearch2.jpg" />
+        </figure>
+        <figure>
+          <img class="img1" src="hotel2.png" />
+        </figure>
+        <figure>
+          <img class="img1" src="flight2.jpg" />
+        </figure>
+      </section>
+      <section>
+        <div class="deal-search">
+          <h5>
+            DEAL FINDER
+          </h5>
+          <input type="search" id="search-site" name="q" placeholder="Search the deals..." aria-label="Search through site content">
+          <input type="button" id="site-button" value="Search">
+        </div>
+      </section>
+      <section class="table-layout">
+        <span class="results">
+          Filter Results
+        </span>
+        <article class="commute">
+          <section class="logo" id="hotel">
+            <img class="img-logo" src="hotel.png" alt="hotellogo" />
+            <section class="check">
+              <label for="hotel"><span>HOTEL</span></label>
+              <input type="checkbox" name="hotel" id="hotel" value="hotel">
+            </section>
+          </section>
+          <section class="logo">
+            <img class="img-logo" src="car.png" alt="car2logo" />
+            <section class="check">
+              <label for="car"><span>CAR</span></label>
+              <input type="checkbox" name="car" id="car" value="car">
+            </section>
+          </section>
+          <section class="logo">
+            <img class="img-logo" src="cruise.png" alt="car2logo" />
+            <section class="check">
+              <label for="cruise"><span>CRUISE</span></label>
+              <input type="checkbox" name="cruise" id="cruise" value="cruise">
+            </section>
+          </section>
+        </article>
+        <section class="search-result">
+          <table>
+            <tbody>
+              <tr>
+                <th>Destination</th>
+                <th>Name</th>
+                <th>Valid Through</th>
+                <th>Offer</th>
+              </tr>
+              <tr>
+                <td>Fort Myer Beach,US</td>
+                <td>The Tremont Chicago Hotel</td>
+                <td>July 30,2018</td>
+                <td>Save Up to 25%</td>
+              </tr>
+              <tr>
+                <td>94</td>
+                <td>Swissotel Chicago</td>
+                <td>July 30,2018</td>
+                <td>Save Up to 25%</td>
+              </tr>
+              <tr>
+                <td>Washington,US</td>
+                <td>Johnson</td>
+                <td>July 30,2018</td>
+                <td>Save Up to 25%</td>
+              </tr>
+              <tr>
+                <td>
+                  Chicago, Illinois, USA
+                </td>
+                <td> Chicago South Loop</td>
+                <td>67</td>
+                <td>Save Up to 50%</td>
+              </tr>
+              <tr>
+                <td>
+                  Chicago, Illinois, USA
+                </td>
+                <td>
+                  Freehand Chicago
+                </td>
+                <td>July 30,2018</td>
+                <td>Up to 50%</td>
+              </tr>
+            </tbody>
+          </table>
+          <input type="button" id="site-button" value="Load More">
+        </section>
+      </section>
+      <article class="banner">
+        <section class="offer-banner">
+          <img class="img2" src="tour1.jpg" />
+        </section>
+        <section class="view-offers">
+        </section>
+        <span>
+          Play all day and all night! GReat Las Vegas hotel deals
+          <a id="off" href="#"><span>View Offers</span></a>
+        </span>
+      </article>
+      <footer class="site-links">
+        <section>
+          <div class="nav-link">
+            <a href="#">Main navigations</a>
+            <hr width="220" />
+          </div>
+          <ul>
+            <li>
+              Flights
+            </li>
+            <li>
+              Hotels
+            </li>
+            <li>
+              Cars
+            </li>
+            <li>
+              Activities
+            </li>
+            <li>
+              Cruises
+
+            </li>
+            <li>
+              Deals
+            </li>
+          </ul>
+        </section>
+        <section>
+          <div class="nav-link">
+            <a href="#">Other links</a>
+            <hr width="220" />
+          </div>
+          <ul>
+            <li>
+              Frequently asked questions
+            </li>
+            <li>
+              Seller of travell
+            </li>
+            <li>
+              Website of terms
+            </li>
+            <li>
+              Travel terms and conditions
+            </li>
+            <li>
+              Privacy policy
+            </li>
+          </ul>
+        </section>
+      </footer>
+    </article>
+  </main>
+</body>
+</html>
