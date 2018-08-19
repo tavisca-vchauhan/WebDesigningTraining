@@ -10,7 +10,7 @@
 <body>
   <header class="flex-container top">
     <section class=" initialFirst">
-      <img src="images/ORXe.jpg" />
+      <img src="images/ORXe.jpg" alt="ORXE 2.0" />
     </section>
     <section class="middle">
       <section class="UserName">
@@ -45,25 +45,25 @@
     <section class="search-flight">
       <a class="icons" href="#">
         <section id="section1">
-          <img class="icon-image" src="images/flight1.png" />
+          <img class="icon-image" src="images/flight1.png" alt="Search flight" />
           <p class="icon-text">Flight</p>
         </section>
       </a>
       <a class="icons" href="#">
         <section id="section2">
-          <img class="icon-image" src="images/hotel.png" />
+          <img class="icon-image" src="images/hotel.png" alt="Search Hotel" />
           <p class="icon-text">Hotel</p>
         </section>
       </a>
       <a class="icons" href="#">
         <section id="section3">
-          <img class="icon-image" src="images/car.png" />
+          <img class="icon-image" src="images/car.png" alt="Search Car" />
           <p class="icon-text">Car</p>
         </section>
       </a>
       <a class="icons" href="#">
         <section id="section4">
-          <img class="icon-image" src="images/activity.png" />
+          <img class="icon-image" src="images/activity.png" alt="Activity" />
           <p class="icon-text">Activity</p>
         </section>
       </a>
@@ -102,7 +102,7 @@
         Return Date
       </span>
     </section>
-    <form action="#" method="get">
+    <form action="index.html" method="post">
       <section class="departure-title">
         <section class="text-box">
           <input class="text" type="text" placeholder="Airport or City" required/>
@@ -130,7 +130,8 @@
       </section>
       <section class="adults-title">
         <section>
-          <select class="select-box" id="adult">
+          <select class="select-box" id="adult" required>
+            <option value="">select</option>
             <option>1</option>
             <option>2</option>
             <option>3</option>
@@ -197,9 +198,7 @@
       </section>
       <section class="search-button">
         <a href="#">
-          <section class="button">
-            Search Flight
-          </section>
+          <input type="submit" class="button" Value="Search Flight">
         </a>
       </section>
     </form>
@@ -208,13 +207,19 @@
     <article class="inner-main">
       <section class="grid-layout">
         <figure>
-          <img class="img1" src="images/carSearch2.jpg" />
+          <a href="#">
+            <img class="img1" src="images/carSearch2.jpg" alt="Car offers" />
+          </a>
         </figure>
         <figure>
-          <img class="img1" src="images/hotel2.png" />
+          <a href="#">
+            <img class="img1" src="images/hotel2.png" alt="Hotel offers" />
+          </a>
         </figure>
         <figure>
-          <img class="img1" src="images/flight2.jpg" />
+          <a href="#">
+            <img class="img1" src="images/flight2.jpg" alt="Flight offers" />
+          </a>
         </figure>
       </section>
       <section>
@@ -231,22 +236,22 @@
           Filter Results
         </span>
         <article class="commute">
-          <section class="logo" id="hotel">
-            <img class="img-logo" src="images/hotel.png" alt="hotellogo" />
+          <section class="logo">
+            <img class="img-logo" src="images/hotel.png" alt="hotel logo" />
             <section class="check">
               <label for="hotel"><span>HOTEL</span></label>
               <input type="checkbox" name="hotel" id="hotel" value="hotel">
             </section>
           </section>
           <section class="logo">
-            <img class="img-logo" src="images/car.png" alt="car2logo" />
+            <img class="img-logo" src="images/car.png" alt="car logo" />
             <section class="check">
               <label for="car"><span>CAR</span></label>
               <input type="checkbox" name="car" id="car" value="car">
             </section>
           </section>
           <section class="logo">
-            <img class="img-logo" src="images/cruise.png" alt="car2logo" />
+            <img class="img-logo" src="images/cruise.png" alt="cruise logo" />
             <section class="check">
               <label for="cruise"><span>CRUISE</span></label>
               <input type="checkbox" name="cruise" id="cruise" value="cruise">
@@ -305,7 +310,7 @@
       </section>
       <article class="banner">
         <section class="offer-banner">
-          <img class="img2" src="images/tour1.jpg" />
+          <img class="img2" src="images/tour1.jpg" alt="world tour offer" />
         </section>
         <section class="view-offers">
         </section>
@@ -322,23 +327,22 @@
           </div>
           <ul>
             <li>
-              Flights
+              <a Class="links2" href="#">Flights</a>
             </li>
             <li>
-              Hotels
+              <a Class="links2" href="#">Hotels</a>
             </li>
             <li>
-              Cars
+              <a Class="links2" href="#">Cars</a>
             </li>
             <li>
-              Activities
+              <a Class="links2" href="#">Activities</a>
             </li>
             <li>
-              Cruises
-
+              <a Class="links2" href="#">Cruises</a>
             </li>
             <li>
-              Deals
+              <a Class="links2" href="#">Deals</a>
             </li>
           </ul>
         </section>
@@ -349,19 +353,19 @@
           </div>
           <ul>
             <li>
-              Frequently asked questions
+              <a Class="links2" href="#">Frequently asked questions</a>
             </li>
             <li>
-              Seller of travell
+              <a Class="links2" href="#">Seller of travell</a>
             </li>
             <li>
-              Website of terms
+              <a Class="links2" href="#">Website of terms</a>
             </li>
             <li>
-              Travel terms and conditions
+              <a Class="links2" href="#">Travel terms and conditions</a>
             </li>
             <li>
-              Privacy policy
+              <a Class="links2" href="#">Privacy policy</a>
             </li>
           </ul>
         </section>

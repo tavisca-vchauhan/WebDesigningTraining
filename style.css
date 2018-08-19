@@ -70,16 +70,16 @@ body{
   flex: none;
 }
  .top{
-   width: 100%;
-	 height: 110px;
+  width: 100%;
+	height: 110px;
  }
  img{
-   flex-basis: 35%;
+  flex-basis: 35%;
   height: 90%;
  }
 a{
-    text-decoration: none;
-    color: #ffffff;
+  text-decoration: none;
+  color: #ffffff;
  }
 a.Itinerary:hover {
   color: #000000;
@@ -89,6 +89,14 @@ a.Itinerary:hover {
 a.links{
   font-size: 0.85em;
   color: #1f74a5; 
+}
+a.links2{
+  font-size: 0.95em;
+}
+a.links2:hover{
+  font-weight: bold;
+  font-size: 1em;
+  text-shadow: 1px 1px 1px black;
 }
 a.links:hover{
   text-shadow: 1px 1px 1px black;
@@ -264,15 +272,15 @@ a.offers:hover{
     display: flex;
     flex-flow: row wrap;
     flex-direction: row;
-    width: 67%;
+    width: 65%;
     height: 45px;
     background: #ffffff;
-    margin-left: 0;
+    margin-left: 0px;
   }
   .adults-title-inside1{
     flex: 0.8;
     font-size: 0.81em;
-    padding: 25px 8px;
+    padding: 20px 12px;
     font-weight: bold;
     color: #3a3e44;
   }
@@ -303,16 +311,17 @@ a.offers:hover{
     width: 97%;
   }
   .button{
-    background: #204a72;
     width: 110px;
+    background: #204a72;
     color: #d3cccc;
-    height: 16px;
+    margin-left:770px;
+    height: 30px;
     padding: 7px 5px;
   }
   .button:hover{
     background: #0f6ea1;
     color: #ffffff;
-    box-shadow: 0px 0px 1px 0.05em #27b827;
+    box-shadow: 0px 0px 1px 0.05em #2a4e85;
   }
   .img1{
     height: 206px;
@@ -322,6 +331,194 @@ a.offers:hover{
     height: 201px;
     width: 800px;
   }
+  .main-content {
+    align-content: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+  }
+  .grid-layout {
+    display: flex;
+    min-height: 250px;
+    margin-top: 50px;
+    flex-wrap: wrap;    
+    padding: 10px;
+    justify-content: center;
+    background: #ffffff;
+  }
+  .grid-layout figure {
+    flex: 0 1 20%;
+    margin-top: 40px; 
+  }
+  .deal-search h5 {
+    background-color: #252323;
+    padding: 7px;
+    color: #ffffff;
+    }
+  .deal-search{
+      width: 1400px;
+      margin: 0 auto;
+      color: #ffffff;
+      display: block; 
+  }
+  input[type=search]{
+    width: 990px;
+    height: 25px;
+  }
+  .deal-search input[type=button] {
+    float: right;
+    height: 30px;
+    padding: 0;
+    width: 120px;
+    background: #155cb9;
+  }
+  .results{
+    margin-left: 140px;
+    font-weight: bold;
+    font-size: 1.3em;
+  }
+  .table-layout{
+    padding: 20px;
+  }
+  .commute {
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-items: flex-start;
+    margin: 30px 120px;
+    width: 1000px;;
+    margin-left: 130px;
+  }
+  .commute section {
+    width: 180px;
+    height: 45px;
+    margin-left: 5px;
+    display: flex;
+  
+  }
+  .img-logo {
+    flex: 1;
+    max-width: 33px;
+    height: 25px;
+    padding: 7px 17px;
+  }
+  .logo {
+    background-color: #52667B;
+    width: 90px;
+    height: 50px;
+    margin-left: 10px;
+  }
+  .logo:hover {
+    background-color: #347AAD;
+  }
+  .check {
+    flex: 1;
+    width: 30%;
+    padding-top: 10px;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin: 20px;
+  }
+  .search-result{
+    padding: 0 100px;
+    text-align: center;
+  }
+  th {
+    text-align: left;
+    padding: 24px;
+    border-bottom: 2px solid #000000;
+  }
+  td:nth-of-type(even) {
+    color: #0000ff;
+  }
+  td:nth-of-type(odd) {
+    color: #A2A2A2;
+  }
+  td {
+    text-align: left;
+    padding: 20px;
+    border-bottom: 2px solid #000000;
+  }
+  .offer-banner {
+    width: 800px;
+    height: 180px;
+    border: 1px solid #000000;
+    margin: 0 auto;
+    position: absolute;
+    left: 550px;
+  }
+  .text1{
+    opacity: 1;
+    color: #000000;
+  }
+  .view-offers {
+    left: 550px;
+    height: 32px;
+    padding: 30px;
+    width: 650px;
+    opacity: 0.65;
+    position: relative;
+    top: 110px;
+    color: #ffffff;
+    background-color: #6495ed;
+  }
+  .view-offers a {
+    color: #ffffff;
+    float: right;
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    margin: 20px;
+  }
+  hr {
+    padding: 0;
+    margin: 0;
+  }
+  .search-result{
+    text-align: center;
+  }
+  input[type=checkbox] {
+    width: 10px;
+    padding: 10px;
+  }
+  .check span{
+    font-size: 0.85em;
+    color: #ffffff;
+  }
+  .site-links {
+  position: relative;
+  top: 150px;
+  background-color: #347AAD;
+  display: flex;
+  flex-wrap: wrap;
+  }
+  .site-links section {
+    flex: 1;
+    margin: 50px;
+    color: #ffffff;
+  }
+  .site-links  section a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+  .site-links section ul li{ 
+  list-style-type: none;
+  padding: 10px 0px;
+  }
+  .nav-link {
+  padding: 0px 40px;
+  }
+  .banner span{
+  color: #ffffff;
+  position: relative;
+  top: 50px;
+  left: 570px;
+  }
 /*#endregion*/
 /*#region IDs*/
 #itinerary{
@@ -330,14 +527,14 @@ a.offers:hover{
    width: 130px;
  }
  #site-button:hover{
-  background: #6ebcfc;
-  color: #000000;
-  text-shadow: 0px 0px 1px #272718;
+   background: #0f6ea1;
+   color: #ffffff;
+   box-shadow: 0px 0px 1px 0.05em #096e9c;
  }
  #site-button{
-   background:#1a70d3;
    box-shadow: 0px 0px 2px 0.1em #add8e6;
-   color:#ffffff;
+   background: #204a72;
+   color: #d3cccc;
    font-weight: bold;
  }
  #off{
@@ -351,196 +548,6 @@ a.offers:hover{
    text-shadow: 0px 0px 2px #0000ff;
  }
  /*#endregion*/
-/*#region Pallavi */
-.main-content {
-  align-content: center;
-  width: 100%;
-  height: 100%;
-  margin: 0 auto;
-}
-.grid-layout {
-  display: flex;
-  min-height: 250px;
-  margin-top: 50px;
-  flex-wrap: wrap;    
-  padding: 10px;
-  justify-content: center;
-  background: #ffffff;
-}
-.grid-layout figure {
-  flex: 0 1 20%;
-  margin-top: 40px; 
-}
-.deal-search h5 {
-  background-color: #252323;
-  padding: 7px;
-  color: #ffffff;
-  }
-.deal-search{
-    width: 1400px;
-    margin: 0 auto;
-    color: #ffffff;
-    display: block; 
-}
-input[type=search]{
-  width: 990px;
-  height: 25px;
-}
-.deal-search input[type=button] {
-  float: right;
-  height: 30px;
-  padding: 0;
-  width: 120px;
-  background: #155cb9;
-}
-.results{
-  margin-left: 140px;
-  font-weight: bold;
-  font-size: 1.3em;
-}
-.table-layout{
-  padding: 20px;
-}
-.commute {
-  display: flex;
-  flex-wrap: wrap;
-  flex-flow: row;
-  align-items: flex-start;
-  margin: 30px 120px;
-  width: 1000px;;
-  margin-left: 130px;
-}
-.commute section {
-  width: 180px;
-  height: 45px;
-  margin-left: 5px;
-  display: flex;
-
-}
-.img-logo {
-  flex: 1;
-  max-width: 33px;
-  height: 25px;
-  padding: 7px 17px;
-}
-.logo {
-  background-color: #52667B;
-  width: 90px;
-  height: 50px;
-  margin-left: 10px;
-}
-.logo:hover {
-  background-color: #347AAD;
-}
-.check {
-  flex: 1;
-  width: 30%;
-  padding-top: 10px;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  margin: 20px;
-}
-.search-result{
-  padding: 0 100px;
-  text-align: center;
-}
-th {
-  text-align: left;
-  padding: 24px;
-  border-bottom: 2px solid #000000;
-}
-td:nth-of-type(even) {
-  color: #0000ff;
-}
-td:nth-of-type(odd) {
-  color: #A2A2A2;
-}
-td {
-  text-align: left;
-  padding: 20px;
-  border-bottom: 2px solid #000000;
-}
-.offer-banner {
-  width: 800px;
-  height: 180px;
-  border: 1px solid #000000;
-  margin: 0 auto;
-  position: absolute;
-  left: 550px;
-}
-.text1{
-  opacity: 1;
-  color: #000000;
-}
-.view-offers {
-  left: 550px;
-  height: 32px;
-  padding: 30px;
-  width: 650px;
-  opacity: 0.65;
-  position: relative;
-  top: 110px;
-  color: #ffffff;
-  background-color: #6495ed;
-}
-.view-offers a {
-  color: #ffffff;
-  float: right;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-  width: 100%;
-  margin: 20px;
-}
-hr {
-  padding: 0;
-  margin: 0;
-}
-.search-result{
-  text-align: center;
-}
-input[type=checkbox] {
-  width: 10px;
-  padding: 10px;
-}
-.check span{
-  font-size: 0.85em;
-  color: #ffffff;
-}
-.site-links {
-position: relative;
-top: 150px;
-background-color: #347AAD;
-display: flex;
-flex-wrap: wrap;
-}
-.site-links section {
-  flex: 1;
-  margin: 50px;
-  color: #ffffff;
-}
-.site-links  section a {
-  text-decoration: none;
-  color: #ffffff;
-}
-.site-links section ul li{ 
-list-style-type: none;
-padding: 10px 0px;
-}
-.nav-link {
-padding: 0px 40px;
-}
-.banner span{
-color: #ffffff;
-position: relative;
-top: 50px;
-left: 570px;
-}
- /*#endregion */
  /*#region MediaQuery */
  @media screen and (max-width: 900px) {
   .view-offers{
