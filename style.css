@@ -39,7 +39,7 @@ body{
 }
 .initialSecond{
   flex: 0.13;
-  background-color:#26a8e0;
+  background-color: #26a8e0;
   font-size: 1.3em;
   padding: 30px 15px; 
   font-family: 'Times new roman';
@@ -71,7 +71,7 @@ body{
 }
  .top{
   width: 100%;
-	height: 110px;
+  height: 110px;
  }
  img{
   flex-basis: 35%;
