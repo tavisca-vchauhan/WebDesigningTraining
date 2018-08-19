@@ -491,11 +491,11 @@ a.offers:hover{
     color: #ffffff;
   }
   .site-links {
-  position: relative;
-  top: 150px;
-  background-color: #347AAD;
-  display: flex;
-  flex-wrap: wrap;
+    position: relative;
+    top: 150px;
+    background-color: #347AAD;
+    display: flex;
+    flex-wrap: wrap;
   }
   .site-links section {
     flex: 1;
@@ -507,45 +507,45 @@ a.offers:hover{
     color: #ffffff;
   }
   .site-links section ul li{ 
-  list-style-type: none;
-  padding: 10px 0px;
+    list-style-type: none;
+    padding: 10px 0px;
   }
   .nav-link {
-  padding: 0px 40px;
+    padding: 0px 40px;
   }
   .banner span{
-  color: #ffffff;
-  position: relative;
-  top: 50px;
-  left: 570px;
+    color: #ffffff;
+    position: relative;
+    top: 50px;
+    left: 570px;
   }
 /*#endregion*/
 /*#region IDs*/
 #itinerary{
-   margin-top:  10px;
-   height: 30px;
-   width: 130px;
+    margin-top:  10px;
+    height: 30px;
+    width: 130px;
  }
  #site-button:hover{
-   background: #0f6ea1;
-   color: #ffffff;
-   box-shadow: 0px 0px 1px 0.05em #096e9c;
+    background: #0f6ea1;
+    color: #ffffff;
+    box-shadow: 0px 0px 1px 0.05em #096e9c;
  }
  #site-button{
-   box-shadow: 0px 0px 2px 0.1em #add8e6;
-   background: #204a72;
-   color: #d3cccc;
-   font-weight: bold;
- }
+    box-shadow: 0px 0px 2px 0.1em #add8e6;
+    background: #204a72;
+    color: #d3cccc;
+    font-weight: bold;
+ } 
  #off{
-   color: #000000;
-   font-weight: bold;
-   position: relative;
-   right: 400px;
-   bottom: 47px;
+    color: #000000;
+    font-weight: bold;
+    position: relative;
+    right: 400px;
+    bottom: 47px;
  }
  #off:hover{
-   text-shadow: 0px 0px 2px #0000ff;
+    text-shadow: 0px 0px 2px #0000ff;
  }
  /*#endregion*/
  /*#region MediaQuery */
