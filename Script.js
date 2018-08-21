@@ -1,15 +1,18 @@
-function Number()
+var count=0;
+function Numberr()
  {
     var number=document.getElementById("number").value;
     var re=/^[0-9]{7,11}$/;
     var node = document.getElementById('number-tooltip')
-    if(!re.test(number) || number[0]<6)
+    if(!re.test(number))
     {      
         node.style.visibility = "visible"
+        count++;
     }
     else
     {
         node.style.visibility = "hidden"
+        
     }
 }
  function FName()
@@ -19,7 +22,8 @@ function Number()
     var node = document.getElementById('fname-tooltip') 
     if(!re.test(name))
     {
-        node.style.visibility = "visible"     
+        node.style.visibility = "visible"
+        count++;     
     }
     else
     {
@@ -34,6 +38,7 @@ function LName()
     if(!re.test(name))
     {      
         node.style.visibility ="visible" 
+        count++;
     }
     else
     {
@@ -47,6 +52,7 @@ function city()
     if(city.length==0)
     {
         node.style.visibility = "visible"
+        count++;
         
     }
     else
@@ -62,6 +68,7 @@ function Email()
     if(!re.test(email))
     {      
         node.style.visibility = "visible"
+        count++;
     }
     else
     {
@@ -75,6 +82,7 @@ function gender()
     if(gender[0].checked== false && gender[1].checked == false && gender[2].checked== false)
     {      
         node.style.visibility = "visible"
+        count++;
     }
     else
     {
@@ -83,33 +91,17 @@ function gender()
 }
 function CheckAll()
 {
-    var count=0;
-    if(!Number())
-    {
-        count++;
-    }
-    if(!FName())
-    {
-        count++;
-    }
-    if(!LName())
-    {
-        count++;
-    }
-    if(!Email())
-    {
-        count++;
-    }
-    if(!city())
-    {
-        count++;
-    }
-    if(!gender())
-    {
-        count++;
-    }
+    count=0;
+    Numberr()
+    FName()
+    LName()
+    Email()
+    city()
+    gender()
     if(count>0)
     return false;
+    else
+    return true;
     
    
 }

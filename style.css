@@ -21,6 +21,35 @@
     font-size: bolder;
     border: 1px double gray;
 }
+.one
+{
+    Width:600px;
+    height:400px;
+    background: #000000;
+    margin:0 auto;
+    margin-top:200px;
+    color:#775151;
+    font-weight: bolder;
+    font-size: 2.5em;
+    box-shadow: 0px 0px 10px 0.2em #141b7a;
+}
+.two
+{
+    position: relative;
+    top:100px;
+    width:300px;
+    height:100px;
+    margin:0 auto;
+}
+.three
+{
+    position: relative;
+    top:100px;
+    width:555px;
+    height:100px;
+    margin:0 auto;
+    font-size:1em;
+}
 input:hover{
     border-bottom: 1px dotted #182acc;
 }
@@ -30,21 +59,22 @@ input[type="text"]{
     border-left: 0;
     border-right: 0;
     height: 30px;
-    width: 300px;
+    width: 280px;
     font-size: 0.8em;
     margin-top: 25px;
-    margin-left: 32px;
-}
-input[type="number"]{
-    margin-top: 60px;
-    width: 280px;
-    height: 30px;
-    font-size: 0.8em;
     margin-left: 10px;
+}
+#first
+{
     border-bottom: 1px solid #008000;
     border-top: 0;
     border-left: 0;
     border-right: 0;
+    height: 30px;
+    width: 280px;
+    font-size: 0.8em;
+    margin-top: 25px;
+    margin-left: 35px;
 }
 input[type="email"]{
     margin-top: 50px;

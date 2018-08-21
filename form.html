@@ -12,13 +12,13 @@
 
 <body>
     <section class="main">
-        <form action="#" method="GET">
+        <form action="accepted.html" method="GET" onsubmit="return CheckAll()">
             Name :<input type="text" id="first" class="fname" placeholder="Enter First Name" onblur="FName()">
             <span id="fname-tooltip">Invalid First name</span>
             <input type="text" id="last" class="lname" placeholder="Enter Last Name" onblur="LName()">
             <br>
             <span id="lname-tooltip">Invalid Last name</span>
-            Number : <input type="number" id="number" onblur="Number()">
+            Number : <input type="text" id="number" onblur="Number()">
             <span id="number-tooltip">Invalid Number</span>
             Email: <input type="email" id="mail" onblur="Email()">
             <br> 
@@ -43,7 +43,7 @@
             <input type="radio" name="gender"  id="gendr" value="trans"> Trans
             <br>
             <span id="gender-tooltip">Please select the gender !</span>
-            <input type="submit" value="Submit" class="submit" onclick="CheckAll()">
+            <input type="submit" value="Submit" class="submit" >
         </form>
     </section>
 </body>
