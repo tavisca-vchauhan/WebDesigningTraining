@@ -23,12 +23,12 @@
 }
 .one
 {
-    Width:600px;
-    height:400px;
+    Width: 600px;
+    height: 400px;
     background: #000000;
-    margin:0 auto;
-    margin-top:200px;
-    color:#775151;
+    margin: 0 auto;
+    margin-top: 200px;
+    color: #775151;
     font-weight: bolder;
     font-size: 2.5em;
     box-shadow: 0px 0px 10px 0.2em #141b7a;
@@ -36,19 +36,19 @@
 .two
 {
     position: relative;
-    top:100px;
-    width:300px;
-    height:100px;
-    margin:0 auto;
+    top: 100px;
+    width: 300px;
+    height: 100px;
+    margin: 0 auto;
 }
 .three
 {
     position: relative;
-    top:100px;
-    width:555px;
-    height:100px;
-    margin:0 auto;
-    font-size:1em;
+    top: 100px;
+    width: 555px;
+    height: 100px;
+    margin: 0 auto;
+    font-size: 1em;
 }
 input:hover{
     border-bottom: 1px dotted #182acc;
