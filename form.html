@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Form Validation</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" s href="style.css" />
+    <script src="Script.js"></script>
+</head>
+
+<body>
+    <section class="main">
+        <form action="#" method="GET">
+            Name :<input type="text" id="first" class="fname" placeholder="Enter First Name" onblur="FName()">
+            <span id="fname-tooltip">Invalid First name</span>
+            <input type="text" id="last" class="lname" placeholder="Enter Last Name" onblur="LName()">
+            <br>
+            <span id="lname-tooltip">Invalid Last name</span>
+            Number : <input type="number" id="number" onblur="Number()">
+            <span id="number-tooltip">Invalid Number</span>
+            Email: <input type="email" id="mail" onblur="Email()">
+            <br> 
+            <span id="mail-tooltip">Invalid Email format</span>
+            <br><br>
+            Address : <textarea id="textarea"></textarea>
+            <br>
+            City : 
+            <select id="select" onblur="city()">
+                <option value="">Select</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Banglore">Banglore</option>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Other">Other</option>
+            </select>
+            <br> 
+            <span id="select-tooltip">Please select a city</span>
+            Gender : <input type="radio" name="gender"  id="gendr" value="male"> Male
+            <input type="radio" name="gender"  id="gendr" value="female"> Female
+            <input type="radio" name="gender"  id="gendr" value="trans"> Trans
+            <br>
+            <span id="gender-tooltip">Please select the gender !</span>
+            <input type="submit" value="Submit" class="submit" onclick="CheckAll()">
+        </form>
+    </section>
+</body>
+
+</html>

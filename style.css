@@ -1,0 +1,130 @@
+.main
+{
+    width: 750px;
+    height: 700px;
+    margin: 0 auto;
+    font-size: 1.3em;
+    margin-top: 50px;
+    padding: 10px;
+    box-shadow: 0px 0px 10px 0.2em #808b83da;
+}
+.submit{
+    width: 130px;
+    height: 35px;
+    border: 0;
+    margin-left: 600px;
+    margin-top: 50px;
+}
+.submit:hover{
+    background: #497a49;
+    color: white;
+    font-size: bolder;
+    border: 1px double gray;
+}
+input:hover{
+    border-bottom: 1px dotted #182acc;
+}
+input[type="text"]{
+    border-bottom: 1px solid #008000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    height: 30px;
+    width: 300px;
+    font-size: 0.8em;
+    margin-top: 25px;
+    margin-left: 32px;
+}
+input[type="number"]{
+    margin-top: 60px;
+    width: 280px;
+    height: 30px;
+    font-size: 0.8em;
+    margin-left: 10px;
+    border-bottom: 1px solid #008000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+input[type="email"]{
+    margin-top: 50px;
+    width: 280px;
+    height: 30px;
+    font-size: 0.8em;
+    margin-left: 10px;
+    border-bottom: 1px solid #008000;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+}
+#textarea{
+    border: 1px dashed #079733;
+    min-width: 725px;
+    max-width: 750px;
+    min-height: 25px;
+    max-height: 100px;
+    color: #1a411a;
+    font-size: 0.9em;
+    font-family: comic sans MS;
+}
+#fname-tooltip{
+    visibility:  hidden;
+    position: absolute;
+    z-index: 1;
+    top: 125px;
+    left: 705px;
+    font-size: 0.85em;
+    color: red;
+}
+#lname-tooltip{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 125px;
+    left: 1055px;
+    font-size: 0.85em;
+    color: red;
+}
+#number-tooltip{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 216px;
+    left: 705px;
+    font-size: 0.85em;
+    color: red;
+}
+#mail-tooltip{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 216px;
+    left: 1055px;
+    font-size: 0.85em;
+    color: red;
+}
+#select-tooltip{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 426px;
+    left: 630px;
+    font-size: 0.85em;
+    color: red;
+}
+#gender-tooltip{
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    top: 516px;
+    left: 682px;
+    font-size: 0.85em;
+    color: red;
+}
+#select{
+    border: 1px solid #0d810d;
+    margin-top: 55px;
+}
+#gendr{
+    margin-top: 70px;
+}
