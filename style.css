@@ -1,6 +1,6 @@
 body
 {
-    background: #aeb1ad;
+    background: #f1f5f0;
 }
 .main
 {
@@ -25,12 +25,12 @@ body
 #dropdown
 {
     position: relative;
-    top: 48px;
+    top: 40px;
     width: 820px;
-    height: 120px;
-    left: 510px;
+    height: 165px;
+    left: 500px;
     font-size: 1em;
-    overflow: visible;
+    overflow-x: hidden;
 }
 ::-webkit-input-placeholder
 {
@@ -39,36 +39,36 @@ body
 #value
 {
     width: 800px;
-    height: 70px;
-    background: #838584;
+    height: 50px;
+    background: #c6cac8;
     color: #ffffff;
     font-size: 1.1em;
     border: none;
     border: solid 1px #595c5a;
-    border-radius: 10px;
+    border-radius: 2px;
     outline: none;
 }
 #value:focus
 {
-    background: #494646;
-    box-shadow: 0px 0px 10px 0.2em #26861d;
+    background: #a19f9f;
+    box-shadow: 0px 0px 10px 0.1em #26861d;
     border: 0;
     outline: none;
 }
 #list
 {
     position: relative;
-    bottom: 10px;
-    right: 30px;
-    width:800px;
-    font-size:0.8em;
+    bottom: 5px;
+    left: 10px;
+    width: 720px;
+    font-size: 0.8em;
     max-height: 25px;
 }
 #delete
 {
     position: relative;
     left: 760px;
-    bottom: 48px;
+    bottom: 38px;
 }
 img
 {
@@ -76,12 +76,14 @@ img
     width: 22px;
 }
 ul{
-    max-height: 30px;
+    max-height: 40px;
     list-style-type: none;
 }
 li
 {
-    max-height: 30px;
+    margin-right:10px;
+    height: 30px;
+    max-height: 40px;
 }
 li:hover
 {
