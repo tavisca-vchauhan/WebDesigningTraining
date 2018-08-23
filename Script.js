@@ -47,9 +47,20 @@ function setVal(x) {
 window.onload = function(){
     var divToHide = document.getElementById('dropdown');
     document.onclick = function(e){
-      if(e.target.id !== 'dropdown'){
-        //element clicked wasn't the div; hide the div
+      if(e.target.id !== 'dropdown' && e.target.id !== 'value'){
         divToHide.style.display = 'none';
       }
+    var arrow=document.getElementById('list');
+    document.onkeypress = function(e)
+    {
+        if(e.keyCode== 40 )
+        {
+            arrow.style.focus='on';
+        }
+    }
     };
   };
+  function Delete()
+  {
+    document.getElementById('value').value="";
+  }

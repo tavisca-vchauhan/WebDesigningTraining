@@ -27,7 +27,7 @@ body
     position: relative;
     top: 48px;
     width: 820px;
-    height: 130px;
+    height: 120px;
     left: 510px;
     font-size: 1em;
     overflow: visible;
@@ -64,6 +64,17 @@ body
     font-size:0.8em;
     max-height: 25px;
 }
+#delete
+{
+    position: relative;
+    left: 760px;
+    bottom: 48px;
+}
+img
+{
+    height: 22px;
+    width: 22px;
+}
 ul{
     max-height: 30px;
     list-style-type: none;
@@ -71,9 +82,8 @@ ul{
 li
 {
     max-height: 30px;
-    border-bottom: 1px dashed #9fb428;
 }
 li:hover
 {
-    background: #49804cab;
+    background: #979797ab;
 }
